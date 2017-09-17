@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialAccountingService", "MaterialAccountingService\MaterialAccountingService.csproj", "{BFC4EA79-0436-440C-8ACC-29BB2CB62436}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialAccounting.DAS", "MaterialAccounting.DAS\MaterialAccounting.DAS.csproj", "{382F17A1-7E56-4FA3-885E-043E215492E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialAccountingService.Tests", "MaterialAccountingService.Tests\MaterialAccountingService.Tests.csproj", "{97D21666-BD55-4287-8BA0-EEBB5BA6A72D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialAccounting.Common", "MaterialAccounting.Common\MaterialAccounting.Common.csproj", "{CCA63985-3990-4C08-B2F0-8148C4EBA666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialAccounting.Services", "MaterialAccounting.Services\MaterialAccounting.Services.csproj", "{60BBDB4A-0549-41E5-9EC5-F4B193833CE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialAccounting.WebApi", "MaterialAccounting.WebApi\MaterialAccounting.WebApi.csproj", "{FA116D61-83B1-4AD8-A17F-F74F520ADF9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BFC4EA79-0436-440C-8ACC-29BB2CB62436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFC4EA79-0436-440C-8ACC-29BB2CB62436}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFC4EA79-0436-440C-8ACC-29BB2CB62436}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BFC4EA79-0436-440C-8ACC-29BB2CB62436}.Release|Any CPU.Build.0 = Release|Any CPU
-		{97D21666-BD55-4287-8BA0-EEBB5BA6A72D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97D21666-BD55-4287-8BA0-EEBB5BA6A72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97D21666-BD55-4287-8BA0-EEBB5BA6A72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97D21666-BD55-4287-8BA0-EEBB5BA6A72D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{382F17A1-7E56-4FA3-885E-043E215492E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{382F17A1-7E56-4FA3-885E-043E215492E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{382F17A1-7E56-4FA3-885E-043E215492E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{382F17A1-7E56-4FA3-885E-043E215492E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCA63985-3990-4C08-B2F0-8148C4EBA666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA63985-3990-4C08-B2F0-8148C4EBA666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA63985-3990-4C08-B2F0-8148C4EBA666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA63985-3990-4C08-B2F0-8148C4EBA666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60BBDB4A-0549-41E5-9EC5-F4B193833CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60BBDB4A-0549-41E5-9EC5-F4B193833CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60BBDB4A-0549-41E5-9EC5-F4B193833CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60BBDB4A-0549-41E5-9EC5-F4B193833CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA116D61-83B1-4AD8-A17F-F74F520ADF9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA116D61-83B1-4AD8-A17F-F74F520ADF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA116D61-83B1-4AD8-A17F-F74F520ADF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA116D61-83B1-4AD8-A17F-F74F520ADF9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
